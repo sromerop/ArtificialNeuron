@@ -13,3 +13,5 @@ The methodology of the project is the following:
 - Once the final architecture has been selected, a small neural network prototype will be implemented and tested on a Digilent’s Nexys4 DDR board. 
 
 As a result, we will get a core with a perceptron that will be used to build low-latency artificial neural networks.
+
+Here are presented all the scripts (both VHDL and MATLAB) used in the project.
