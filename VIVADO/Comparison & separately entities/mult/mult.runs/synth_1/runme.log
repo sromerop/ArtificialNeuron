@@ -1,0 +1,348 @@
+
+*** Running vivado
+    with args -log TOP.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source TOP.tcl -notrace
+Command: synth_design -top TOP -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 26252 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 352.324 ; gain = 98.418
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TOP' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/TOP.vhd:12]
+	Parameter nbits bound to: 8 - type: integer 
+	Parameter nbits bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'AM' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:7' bound to instance 'AM_instance' of component 'AM' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/TOP.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'AM' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:14]
+	Parameter nbits bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/HA.vhd:5' bound to instance 'HA1' of component 'HA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/HA.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'HA' (1#1) [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/HA.vhd:12]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'FA' (2#1) [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:13]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/HA.vhd:5' bound to instance 'HA1' of component 'HA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:59]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/HA.vhd:5' bound to instance 'HA1' of component 'HA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:59]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/HA.vhd:5' bound to instance 'HA1' of component 'HA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:59]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/HA.vhd:5' bound to instance 'HA1' of component 'HA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:59]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/HA.vhd:5' bound to instance 'HA1' of component 'HA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:59]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:74]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/HA.vhd:5' bound to instance 'HA1' of component 'HA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:59]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA1' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:66]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA1' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:66]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA1' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:66]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA1' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:66]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA1' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:66]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/imports/COMPARATIVAS/FA.vhd:5' bound to instance 'FA1' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'AM' (3#1) [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/AM.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'TOP' (4#1) [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/sources_1/new/TOP.vhd:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 407.621 ; gain = 153.715
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 407.621 ; gain = 153.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 407.621 ; gain = 153.715
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc]
+WARNING: [Constraints 18-96] Setting input delay on a clock pin 'clk' is not supported, ignoring it [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc:10]
+WARNING: [Constraints 18-96] Setting input delay on a clock pin 'clk' is not supported, ignoring it [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc:11]
+Finished Parsing XDC File [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TOP_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/TOP_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 760.063 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 760.063 ; gain = 506.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 760.063 ; gain = 506.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 760.063 ; gain = 506.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 760.063 ; gain = 506.156
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 91    
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module TOP 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module FA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+Module AM 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 760.063 ; gain = 506.156
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 760.063 ; gain = 506.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 765.215 ; gain = 511.309
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 765.215 ; gain = 511.309
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 765.215 ; gain = 511.309
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 765.215 ; gain = 511.309
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 765.215 ; gain = 511.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 765.215 ; gain = 511.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 765.215 ; gain = 511.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 765.215 ; gain = 511.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     2|
+|3     |LUT2   |    10|
+|4     |LUT4   |    23|
+|5     |LUT5   |     8|
+|6     |LUT6   |    48|
+|7     |FDRE   |    32|
+|8     |IBUF   |    17|
+|9     |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------+-------+------+
+|      |Instance      |Module |Cells |
++------+--------------+-------+------+
+|1     |top           |       |   157|
+|2     |  AM_instance |AM     |    26|
++------+--------------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 765.215 ; gain = 511.309
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 765.215 ; gain = 158.867
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 765.215 ; gain = 511.309
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+70 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 769.145 ; gain = 528.016
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/mult/mult.runs/synth_1/TOP.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TOP_utilization_synth.rpt -pb TOP_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 769.145 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jan  3 11:11:52 2019...

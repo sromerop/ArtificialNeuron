@@ -1,0 +1,456 @@
+
+*** Running vivado
+    with args -log MAC.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MAC.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source MAC.tcl -notrace
+Command: synth_design -top MAC -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17992 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 352.656 ; gain = 98.680
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MAC' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/MAC.vhd:20]
+	Parameter ninputs bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'dadda_multi' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/dadda_mult_8b/dadda_mult_8b.srcs/sources_1/imports/dadda_mult-master/dadda_multi.vhd:8' bound to instance 'DADDA' of component 'dadda_multi' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/MAC.vhd:47]
+INFO: [Synth 8-638] synthesizing module 'dadda_multi' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/dadda_mult_8b/dadda_mult_8b.srcs/sources_1/imports/dadda_mult-master/dadda_multi.vhd:18]
+INFO: [Synth 8-3491] module 'Twos_complement_input' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/Twos_complement_input.vhd:6' bound to instance 'INPUT_A' of component 'Twos_complement_input' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/dadda_mult_8b/dadda_mult_8b.srcs/sources_1/imports/dadda_mult-master/dadda_multi.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'Twos_complement_input' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/Twos_complement_input.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Twos_complement_input' (1#1) [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/Twos_complement_input.vhd:12]
+INFO: [Synth 8-3491] module 'Twos_complement_input' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/Twos_complement_input.vhd:6' bound to instance 'INPUT_B' of component 'Twos_complement_input' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/dadda_mult_8b/dadda_mult_8b.srcs/sources_1/imports/dadda_mult-master/dadda_multi.vhd:82]
+INFO: [Synth 8-3491] module 'Twos_complement_output' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/Twos_complement_output.vhd:6' bound to instance 'OUTPUT' of component 'Twos_complement_output' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/dadda_mult_8b/dadda_mult_8b.srcs/sources_1/imports/dadda_mult-master/dadda_multi.vhd:323]
+INFO: [Synth 8-638] synthesizing module 'Twos_complement_output' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/Twos_complement_output.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Twos_complement_output' (2#1) [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/Twos_complement_output.vhd:12]
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+INFO: [Synth 8-256] done synthesizing module 'dadda_multi' (3#1) [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/dadda_mult_8b/dadda_mult_8b.srcs/sources_1/imports/dadda_mult-master/dadda_multi.vhd:18]
+	Parameter ninputs bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'CSA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:8' bound to instance 'CSAdd' of component 'CSA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/MAC.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'CSA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:17]
+	Parameter ninputs bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'RCA_4b' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/RCA_4b.vhd:7' bound to instance 'RCA_03_1' of component 'RCA_4b' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'RCA_4b' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/RCA_4b.vhd:15]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/FA.vhd:5' bound to instance 'FA0' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/RCA_4b.vhd:30]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/FA.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'FA' (4#1) [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/FA.vhd:13]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/FA.vhd:5' bound to instance 'FA1' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/RCA_4b.vhd:37]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/FA.vhd:5' bound to instance 'FA2' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/RCA_4b.vhd:44]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/FA.vhd:5' bound to instance 'FA3' of component 'FA' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/RCA_4b.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'RCA_4b' (5#1) [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/RCA_4b.vhd:15]
+INFO: [Synth 8-3491] module 'RCA_4b' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/RCA_4b.vhd:7' bound to instance 'RCA_03_0' of component 'RCA_4b' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:84]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'mux_2to1' (6#1) [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:12]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:92]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:92]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:92]
+INFO: [Synth 8-3491] module 'RCA_4b' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/RCA_4b.vhd:7' bound to instance 'RCA_X_1' of component 'RCA_4b' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:102]
+INFO: [Synth 8-3491] module 'RCA_4b' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/RCA_4b.vhd:7' bound to instance 'RCA_X_0' of component 'RCA_4b' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:108]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:116]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:116]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:116]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:116]
+INFO: [Synth 8-3491] module 'RCA_4b' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/RCA_4b.vhd:7' bound to instance 'RCA_X_1' of component 'RCA_4b' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:102]
+INFO: [Synth 8-3491] module 'RCA_4b' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/RCA_4b.vhd:7' bound to instance 'RCA_X_0' of component 'RCA_4b' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:108]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:116]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:116]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:116]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:116]
+INFO: [Synth 8-3491] module 'RCA_4b' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/RCA_4b.vhd:7' bound to instance 'RCA_X_1' of component 'RCA_4b' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:102]
+INFO: [Synth 8-3491] module 'RCA_4b' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/RCA_4b.vhd:7' bound to instance 'RCA_X_0' of component 'RCA_4b' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:108]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:116]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:116]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:116]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:116]
+INFO: [Synth 8-3491] module 'RCA_4b' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/RCA_4b.vhd:7' bound to instance 'RCA_N4N1_1' of component 'RCA_4b' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:125]
+INFO: [Synth 8-3491] module 'RCA_4b' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/RCA_4b.vhd:7' bound to instance 'RCA_N4N1_0' of component 'RCA_4b' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:131]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:139]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:139]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:139]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_X' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:139]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd:5' bound to instance 'MUX_COUT' of component 'mux_2to1' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:145]
+INFO: [Synth 8-256] done synthesizing module 'CSA' (7#1) [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd:17]
+WARNING: [Synth 8-614] signal 'product' is read in the process but is not in the sensitivity list [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/MAC.vhd:81]
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+INFO: [Synth 8-256] done synthesizing module 'MAC' (8#1) [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/MAC.vhd:20]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 408.293 ; gain = 154.316
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 408.293 ; gain = 154.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 408.293 ; gain = 154.316
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc]
+WARNING: [Constraints 18-96] Setting input delay on a clock pin 'clk' is not supported, ignoring it [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc:10]
+WARNING: [Constraints 18-96] Setting input delay on a clock pin 'clk' is not supported, ignoring it [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc:11]
+Finished Parsing XDC File [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/MAC_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/MAC_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 763.961 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 763.961 ; gain = 509.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 763.961 ; gain = 509.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 763.961 ; gain = 509.984
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 's_next_reg' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/MAC.vhd:74]
+WARNING: [Synth 8-327] inferring latch for variable 'count_next_reg' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/MAC.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'p_next_reg' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/MAC.vhd:73]
+WARNING: [Synth 8-327] inferring latch for variable 'a_next_reg' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/MAC.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'b_next_reg' [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/MAC.vhd:72]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 763.961 ; gain = 509.984
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 88    
+	   3 Input      1 Bit         XORs := 35    
++---Registers : 
+	               20 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 23    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module MAC 
+Detailed RTL Component Info : 
++---Registers : 
+	               20 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 2     
+Module Twos_complement_input 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+Module Twos_complement_output 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module dadda_multi 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 8     
+	   3 Input      1 Bit         XORs := 35    
+Module FA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+Module mux_2to1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module CSA 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+DSP Report: Generating DSP p_trans, operation Mode is: C+(A:0x0):B.
+DSP Report: operator p_trans is absorbed into DSP p_trans.
+DSP Report: Generating DSP plusOp, operation Mode is: C+CarryIn.
+DSP Report: operator plusOp is absorbed into DSP plusOp.
+WARNING: [Synth 8-3332] Sequential element (a_next_reg[7]) is unused and will be removed from module MAC.
+WARNING: [Synth 8-3332] Sequential element (a_next_reg[6]) is unused and will be removed from module MAC.
+WARNING: [Synth 8-3332] Sequential element (a_next_reg[5]) is unused and will be removed from module MAC.
+WARNING: [Synth 8-3332] Sequential element (a_next_reg[4]) is unused and will be removed from module MAC.
+WARNING: [Synth 8-3332] Sequential element (a_next_reg[3]) is unused and will be removed from module MAC.
+WARNING: [Synth 8-3332] Sequential element (a_next_reg[2]) is unused and will be removed from module MAC.
+WARNING: [Synth 8-3332] Sequential element (a_next_reg[1]) is unused and will be removed from module MAC.
+WARNING: [Synth 8-3332] Sequential element (a_next_reg[0]) is unused and will be removed from module MAC.
+WARNING: [Synth 8-3332] Sequential element (b_next_reg[7]) is unused and will be removed from module MAC.
+WARNING: [Synth 8-3332] Sequential element (b_next_reg[6]) is unused and will be removed from module MAC.
+WARNING: [Synth 8-3332] Sequential element (b_next_reg[5]) is unused and will be removed from module MAC.
+WARNING: [Synth 8-3332] Sequential element (b_next_reg[4]) is unused and will be removed from module MAC.
+WARNING: [Synth 8-3332] Sequential element (b_next_reg[3]) is unused and will be removed from module MAC.
+WARNING: [Synth 8-3332] Sequential element (b_next_reg[2]) is unused and will be removed from module MAC.
+WARNING: [Synth 8-3332] Sequential element (b_next_reg[1]) is unused and will be removed from module MAC.
+WARNING: [Synth 8-3332] Sequential element (b_next_reg[0]) is unused and will be removed from module MAC.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 763.961 ; gain = 509.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|dadda_multi | C+(A:0x0):B | 30     | 15     | 15     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|MAC         | C+CarryIn   | -      | -      | 5      | -      | 5      | -    | -    | 0    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/MAC.vhd:69]
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 803.328 ; gain = 549.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 814.184 ; gain = 560.207
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.srcs/sources_1/new/MAC.vhd:69]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 821.297 ; gain = 567.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 821.297 ; gain = 567.320
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 821.297 ; gain = 567.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 821.297 ; gain = 567.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 821.297 ; gain = 567.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 821.297 ; gain = 567.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 821.297 ; gain = 567.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |CARRY4    |     4|
+|3     |DSP48E1   |     1|
+|4     |DSP48E1_1 |     1|
+|5     |LUT1      |    16|
+|6     |LUT2      |    14|
+|7     |LUT3      |    58|
+|8     |LUT4      |    29|
+|9     |LUT5      |    31|
+|10    |LUT6      |    46|
+|11    |FDCE      |    57|
+|12    |LDC       |    41|
+|13    |IBUF      |    19|
+|14    |OBUF      |    20|
++------+----------+------+
+
+Report Instance Areas: 
++------+---------------------------+------------+------+
+|      |Instance                   |Module      |Cells |
++------+---------------------------+------------+------+
+|1     |top                        |            |   338|
+|2     |  CSAdd                    |CSA         |    39|
+|3     |    RCA_03_0               |RCA_4b      |    23|
+|4     |      FA0                  |FA_19       |    20|
+|5     |      FA1                  |FA_20       |     1|
+|6     |      FA2                  |FA_21       |     1|
+|7     |      FA3                  |FA_22       |     1|
+|8     |    RCA_N4N1_0             |RCA_4b_0    |     4|
+|9     |      FA0                  |FA_15       |     1|
+|10    |      FA1                  |FA_16       |     1|
+|11    |      FA2                  |FA_17       |     1|
+|12    |      FA3                  |FA_18       |     1|
+|13    |    \gen_stage[1].RCA_X_0  |RCA_4b_1    |     4|
+|14    |      FA0                  |FA_11       |     1|
+|15    |      FA1                  |FA_12       |     1|
+|16    |      FA2                  |FA_13       |     1|
+|17    |      FA3                  |FA_14       |     1|
+|18    |    \gen_stage[2].RCA_X_0  |RCA_4b_2    |     4|
+|19    |      FA0                  |FA_7        |     1|
+|20    |      FA1                  |FA_8        |     1|
+|21    |      FA2                  |FA_9        |     1|
+|22    |      FA3                  |FA_10       |     1|
+|23    |    \gen_stage[3].RCA_X_0  |RCA_4b_3    |     4|
+|24    |      FA0                  |FA          |     1|
+|25    |      FA1                  |FA_4        |     1|
+|26    |      FA2                  |FA_5        |     1|
+|27    |      FA3                  |FA_6        |     1|
+|28    |  DADDA                    |dadda_multi |   142|
++------+---------------------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 821.297 ; gain = 567.320
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 21 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 821.297 ; gain = 211.652
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 821.297 ; gain = 567.320
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 66 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 41 instances were transformed.
+  LDC => LDCE: 41 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+70 Infos, 26 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 821.297 ; gain = 579.703
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/MAC_8b/MAC_8b.runs/synth_1/MAC.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MAC_utilization_synth.rpt -pb MAC_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 821.297 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jan  3 12:55:50 2019...

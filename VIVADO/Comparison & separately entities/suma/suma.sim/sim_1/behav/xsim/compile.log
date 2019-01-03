@@ -1,0 +1,7 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/suma/suma.srcs/sources_1/imports/COMPARATIVAS/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/suma/suma.srcs/sources_1/imports/COMPARATIVAS/rca_utils.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/suma/suma.srcs/sources_1/new/RCA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/suma/suma.srcs/sim_1/imports/COMPARATIVAS/sum_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA_tb

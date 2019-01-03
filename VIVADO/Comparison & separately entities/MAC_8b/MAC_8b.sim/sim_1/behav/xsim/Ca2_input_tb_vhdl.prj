@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../MAC_8b.srcs/sources_1/new/Ca2_input.vhd" \
+"../../../../MAC_8b.srcs/sim_1/new/Ca2_input_tb.vhd" \
+
+# Do not sort compile order
+nosort

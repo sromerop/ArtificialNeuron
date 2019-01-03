@@ -1,0 +1,27 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 3ee6a54f822b4d15a4fa166227dc9bfc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MAC_tb_behav xil_defaultlib.MAC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.mac_utils
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.dadda_utils
+Compiling package xil_defaultlib.csa_utils
+Compiling package xil_defaultlib.rca_utils
+Compiling architecture behavioral of entity xil_defaultlib.Ca2_input [ca2_input_default]
+Compiling architecture behavioral of entity xil_defaultlib.Ca2_output [ca2_output_default]
+Compiling architecture dadda_multi_arch of entity xil_defaultlib.dadda_multi [dadda_multi_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_4b [rca_4b_default]
+Compiling architecture behavioral of entity xil_defaultlib.CSA [\CSA(ninputs=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.MAC [mac_default]
+Compiling architecture behavioral of entity xil_defaultlib.mac_tb
+Built simulation snapshot MAC_tb_behav

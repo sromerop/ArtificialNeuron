@@ -1,0 +1,7 @@
+Running: xsim.dir/Ca2_input_tb_behav/xsimk.exe -simmode gui -wdb Ca2_input_tb_behav.wdb -simrunnum 0 -socket 59644
+Design successfully loaded
+Design Loading Memory Usage: 4856 KB (Peak: 4856 KB)
+Design Loading CPU Usage: 93 ms
+Simulation completed
+Simulation Memory Usage: 5548 KB (Peak: 5548 KB)
+Simulation CPU Usage: 93 ms

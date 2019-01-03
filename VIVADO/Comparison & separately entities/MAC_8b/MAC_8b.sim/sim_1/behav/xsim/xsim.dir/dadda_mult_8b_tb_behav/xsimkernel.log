@@ -1,0 +1,7 @@
+Running: xsim.dir/dadda_mult_8b_tb_behav/xsimk.exe -simmode gui -wdb dadda_mult_8b_tb_behav.wdb -simrunnum 0 -socket 60139
+Design successfully loaded
+Design Loading Memory Usage: 4904 KB (Peak: 4904 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 5728 KB (Peak: 5728 KB)
+Simulation CPU Usage: 30 ms

@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../MAC_8b.srcs/sources_1/new/Ca2_input.vhd" \
+"../../../../MAC_8b.srcs/sources_1/new/Ca2_output.vhd" \
+"../../../../MAC_8b.srcs/sources_1/imports/FPGA y Vivado/dadda_mult_8b/dadda_mult_8b.srcs/sources_1/imports/dadda_mult-master/dadda_utils.vhd" \
+"../../../../MAC_8b.srcs/sources_1/imports/FPGA y Vivado/dadda_mult_8b/dadda_mult_8b.srcs/sources_1/imports/dadda_mult-master/dadda_multi.vhd" \
+"../../../../MAC_8b.srcs/sim_1/imports/new/dadda_mult_8b_tb.vhd" \
+
+# Do not sort compile order
+nosort

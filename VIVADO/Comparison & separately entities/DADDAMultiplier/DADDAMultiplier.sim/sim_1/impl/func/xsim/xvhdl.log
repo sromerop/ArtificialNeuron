@@ -1,0 +1,3 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/DADDAMultiplier/DADDAMultiplier.sim/sim_1/impl/func/xsim/TOP_func_impl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dadda_multi
+INFO: [VRFC 10-307] analyzing entity TOP

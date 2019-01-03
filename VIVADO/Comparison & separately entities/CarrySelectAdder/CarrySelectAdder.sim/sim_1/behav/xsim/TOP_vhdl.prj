@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../CarrySelectAdder.srcs/sources_1/imports/COMPARATIVAS/csa_utils.vhd" \
+"../../../../CarrySelectAdder.srcs/sources_1/imports/COMPARATIVAS/CSA.vhd" \
+"../../../../CarrySelectAdder.srcs/sources_1/imports/COMPARATIVAS/FA.vhd" \
+"../../../../CarrySelectAdder.srcs/sources_1/imports/COMPARATIVAS/rca_utils.vhd" \
+"../../../../CarrySelectAdder.srcs/sources_1/imports/COMPARATIVAS/RCA_4b.vhd" \
+"../../../../CarrySelectAdder.srcs/sources_1/imports/COMPARATIVAS/mux_2to1.vhd" \
+"../../../../CarrySelectAdder.srcs/sources_1/new/TOP.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,55 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 4c17b4284e734cf7910fb4d426855418 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TOP_func_impl xil_defaultlib.TOP -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111100010000000")(0...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10010110")(0,7)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111111111111001...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10010101011010100110...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111000100000001000...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11101000")(0,7)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111000100010001000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10011001100101101001...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111111111111001...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1000000000000000")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10000111011110000111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1110101010000000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1001011001100110")(0...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1000")(0,3)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0111100010001000")(0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10000111011101110111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0101011001101010")(0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01101001011010010110...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1110100010001000")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11101010100000001000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10000111011101110111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1000011101111000")(0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10011011000010001111...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00111000000010000100...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01101010101010101010...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10010110011010010110...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10000000000000000111...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01010101011010100110...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01010101011010100110...]
+Compiling architecture carry4_v of entity unisim.CARRY4 [carry4_default]
+Compiling architecture structure of entity xil_defaultlib.dadda_multi [dadda_multi_default]
+Compiling architecture ibuf_v of entity unisim.IBUF [\IBUF(1,9)(1,1)(1,4)(1,7)\]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture obuf_v of entity unisim.OBUF [\OBUF(1,9)(1,7)(1,4)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000111111110001...]
+Compiling architecture structure of entity xil_defaultlib.top
+Built simulation snapshot TOP_func_impl

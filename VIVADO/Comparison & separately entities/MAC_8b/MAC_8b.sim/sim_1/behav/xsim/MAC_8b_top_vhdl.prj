@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../MAC_8b.srcs/sources_1/new/csa_utils.vhd" \
+"../../../../MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/CSA.vhd" \
+"../../../../MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/FA.vhd" \
+"../../../../MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/RCA_4b.vhd" \
+"../../../../MAC_8b.srcs/sources_1/imports/FPGA y Vivado/dadda_mult_8b/dadda_mult_8b.srcs/sources_1/imports/dadda_mult-master/dadda_utils.vhd" \
+"../../../../MAC_8b.srcs/sources_1/imports/FPGA y Vivado/dadda_mult_8b/dadda_mult_8b.srcs/sources_1/imports/dadda_mult-master/dadda_multi.vhd" \
+"../../../../MAC_8b.srcs/sources_1/imports/FPGA y Vivado/CSA_8b/CSA_8b.srcs/sources_1/new/mux_2to1.vhd" \
+"../../../../MAC_8b.srcs/sources_1/new/MAC_8b_top.vhd" \
+
+# Do not sort compile order
+nosort

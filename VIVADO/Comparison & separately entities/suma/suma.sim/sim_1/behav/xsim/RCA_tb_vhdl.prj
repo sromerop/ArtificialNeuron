@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../suma.srcs/sources_1/imports/COMPARATIVAS/FA.vhd" \
+"../../../../suma.srcs/sources_1/imports/COMPARATIVAS/rca_utils.vhd" \
+"../../../../suma.srcs/sources_1/new/RCA.vhd" \
+"../../../../suma.srcs/sim_1/imports/COMPARATIVAS/sum_tb.vhd" \
+
+# Do not sort compile order
+nosort

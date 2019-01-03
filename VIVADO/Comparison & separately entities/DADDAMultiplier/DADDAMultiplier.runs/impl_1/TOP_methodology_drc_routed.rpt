@@ -1,0 +1,147 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Thu Jan  3 11:02:25 2019
+| Host         : ASUSANTI running 64-bit major release  (build 9200)
+| Command      : report_methodology -file TOP_methodology_drc_routed.rpt -pb TOP_methodology_drc_routed.pb -rpx TOP_methodology_drc_routed.rpx
+| Design       : TOP
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 16
++--------+----------+------------------------------------------+------------+
+| Rule   | Severity | Description                              | Violations |
++--------+----------+------------------------------------------+------------+
+| XDCH-2 | Warning  | Same min and max delay values on IO port | 16         |
++--------+----------+------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+XDCH-2#1 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'p[0]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/DADDAMultiplier/DADDAMultiplier.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#2 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'p[10]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/DADDAMultiplier/DADDAMultiplier.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#3 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'p[11]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/DADDAMultiplier/DADDAMultiplier.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#4 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'p[12]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/DADDAMultiplier/DADDAMultiplier.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#5 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'p[13]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/DADDAMultiplier/DADDAMultiplier.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#6 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'p[14]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/DADDAMultiplier/DADDAMultiplier.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#7 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'p[15]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/DADDAMultiplier/DADDAMultiplier.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#8 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'p[1]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/DADDAMultiplier/DADDAMultiplier.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#9 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'p[2]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/DADDAMultiplier/DADDAMultiplier.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#10 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'p[3]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/DADDAMultiplier/DADDAMultiplier.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#11 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'p[4]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/DADDAMultiplier/DADDAMultiplier.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#12 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'p[5]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/DADDAMultiplier/DADDAMultiplier.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#13 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'p[6]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/DADDAMultiplier/DADDAMultiplier.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#14 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'p[7]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/DADDAMultiplier/DADDAMultiplier.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#15 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'p[8]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/DADDAMultiplier/DADDAMultiplier.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#16 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'p[9]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/COMPARATIVAS/DADDAMultiplier/DADDAMultiplier.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 12)
+Related violations: <none>
+
+
