@@ -1,0 +1,593 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Jan 17 18:24:36 2019
+| Host         : ASUSANTI running 64-bit major release  (build 9200)
+| Command      : report_methodology -file Neural_Network_methodology_drc_routed.rpt -pb Neural_Network_methodology_drc_routed.pb -rpx Neural_Network_methodology_drc_routed.rpx
+| Design       : Neural_Network
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 101
++-----------+----------+------------------------------------------------+------------+
+| Rule      | Severity | Description                                    | Violations |
++-----------+----------+------------------------------------------------+------------+
+| DPIR-1    | Warning  | Asynchronous driver check                      | 24         |
+| TIMING-6  | Warning  | No common primary clock between related clocks | 4          |
+| TIMING-17 | Warning  | Non-clocked sequential cell                    | 48         |
+| XDCH-2    | Warning  | Same min and max delay values on IO port       | 25         |
++-----------+----------+------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+DPIR-1#1 Warning
+Asynchronous driver check  
+DSP a21/plusOp input pin a21/plusOp/C[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#2 Warning
+Asynchronous driver check  
+DSP a21/plusOp input pin a21/plusOp/C[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#3 Warning
+Asynchronous driver check  
+DSP a21/plusOp input pin a21/plusOp/C[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#4 Warning
+Asynchronous driver check  
+DSP a21/plusOp input pin a21/plusOp/C[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#5 Warning
+Asynchronous driver check  
+DSP a21/plusOp__0 input pin a21/plusOp__0/C[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#6 Warning
+Asynchronous driver check  
+DSP a21/plusOp__0 input pin a21/plusOp__0/C[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#7 Warning
+Asynchronous driver check  
+DSP a21/plusOp__0 input pin a21/plusOp__0/C[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#8 Warning
+Asynchronous driver check  
+DSP a21/plusOp__0 input pin a21/plusOp__0/C[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#9 Warning
+Asynchronous driver check  
+DSP a22/plusOp input pin a22/plusOp/C[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#10 Warning
+Asynchronous driver check  
+DSP a22/plusOp input pin a22/plusOp/C[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#11 Warning
+Asynchronous driver check  
+DSP a22/plusOp input pin a22/plusOp/C[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#12 Warning
+Asynchronous driver check  
+DSP a22/plusOp input pin a22/plusOp/C[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#13 Warning
+Asynchronous driver check  
+DSP a22/plusOp__0 input pin a22/plusOp__0/C[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#14 Warning
+Asynchronous driver check  
+DSP a22/plusOp__0 input pin a22/plusOp__0/C[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#15 Warning
+Asynchronous driver check  
+DSP a22/plusOp__0 input pin a22/plusOp__0/C[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#16 Warning
+Asynchronous driver check  
+DSP a22/plusOp__0 input pin a22/plusOp__0/C[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#17 Warning
+Asynchronous driver check  
+DSP a31/plusOp input pin a31/plusOp/C[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#18 Warning
+Asynchronous driver check  
+DSP a31/plusOp input pin a31/plusOp/C[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#19 Warning
+Asynchronous driver check  
+DSP a31/plusOp input pin a31/plusOp/C[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#20 Warning
+Asynchronous driver check  
+DSP a31/plusOp input pin a31/plusOp/C[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#21 Warning
+Asynchronous driver check  
+DSP a31/plusOp__0 input pin a31/plusOp__0/C[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#22 Warning
+Asynchronous driver check  
+DSP a31/plusOp__0 input pin a31/plusOp__0/C[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#23 Warning
+Asynchronous driver check  
+DSP a31/plusOp__0 input pin a31/plusOp__0/C[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#24 Warning
+Asynchronous driver check  
+DSP a31/plusOp__0 input pin a31/plusOp__0/C[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+TIMING-6#1 Warning
+No common primary clock between related clocks  
+The clocks clk_out1_clk_50MHz and clk_out1_clk_50MHz_1 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_clk_50MHz] -to [get_clocks clk_out1_clk_50MHz_1]
+Related violations: <none>
+
+TIMING-6#2 Warning
+No common primary clock between related clocks  
+The clocks clk_out1_clk_50MHz and sys_clk_pin are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_clk_50MHz] -to [get_clocks sys_clk_pin]
+Related violations: <none>
+
+TIMING-6#3 Warning
+No common primary clock between related clocks  
+The clocks clk_out1_clk_50MHz_1 and clk_out1_clk_50MHz are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_clk_50MHz_1] -to [get_clocks clk_out1_clk_50MHz]
+Related violations: <none>
+
+TIMING-6#4 Warning
+No common primary clock between related clocks  
+The clocks sys_clk_pin and clk_out1_clk_50MHz are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks sys_clk_pin] -to [get_clocks clk_out1_clk_50MHz]
+Related violations: <none>
+
+TIMING-17#1 Warning
+Non-clocked sequential cell  
+The clock pin aux0_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Warning
+Non-clocked sequential cell  
+The clock pin aux0_reg_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Warning
+Non-clocked sequential cell  
+The clock pin aux1_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Warning
+Non-clocked sequential cell  
+The clock pin aux1_reg_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Warning
+Non-clocked sequential cell  
+The clock pin aux2_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Warning
+Non-clocked sequential cell  
+The clock pin aux2_reg_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Warning
+Non-clocked sequential cell  
+The clock pin aux3_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Warning
+Non-clocked sequential cell  
+The clock pin aux3_reg_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Warning
+Non-clocked sequential cell  
+The clock pin aux4_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Warning
+Non-clocked sequential cell  
+The clock pin aux4_reg_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Warning
+Non-clocked sequential cell  
+The clock pin aux5_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Warning
+Non-clocked sequential cell  
+The clock pin aux5_reg_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Warning
+Non-clocked sequential cell  
+The clock pin aux6_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Warning
+Non-clocked sequential cell  
+The clock pin aux6_reg_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Warning
+Non-clocked sequential cell  
+The clock pin aux7_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Warning
+Non-clocked sequential cell  
+The clock pin aux7_reg_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#26 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#27 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#28 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#29 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#30 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#31 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#32 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#33 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#34 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#35 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#36 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#37 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#38 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#39 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#40 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#41 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#42 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#43 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#44 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#45 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#46 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#47 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#48 Warning
+Non-clocked sequential cell  
+The clock pin count_temporal_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+XDCH-2#1 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'an[0]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#2 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'an[1]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#3 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'an[2]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#4 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'an[3]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#5 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'an[4]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#6 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'an[5]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#7 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'an[6]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#8 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'an[7]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#9 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'data_out' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#10 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'finish' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#11 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'middle_result[0]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#12 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'middle_result[1]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#13 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'middle_result[2]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#14 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'middle_result[3]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#15 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'middle_result[4]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#16 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'middle_result[5]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#17 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'middle_result[6]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#18 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'middle_result[7]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#19 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'seg[0]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#20 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'seg[1]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#21 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'seg[2]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#22 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'seg[3]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#23 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'seg[4]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#24 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'seg[5]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+XDCH-2#25 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'seg[6]' relative to clock sys_clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk_pin 0.500 [all_outputs]
+C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/constrs_1/imports/FPGA y Vivado/Nexys4DDR_Master.xdc (Line: 14)
+Related violations: <none>
+
+

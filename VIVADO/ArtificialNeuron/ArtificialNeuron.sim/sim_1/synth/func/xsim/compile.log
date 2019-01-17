@@ -1,0 +1,35 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.sim/sim_1/synth/func/xsim/Neural_Network_tb_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Twos_complement_input
+INFO: [VRFC 10-307] analyzing entity Twos_complement_input_1
+INFO: [VRFC 10-307] analyzing entity Twos_complement_input_3
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a21__blk_mem_gen_prim_wrapper_init\
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a22__blk_mem_gen_prim_wrapper_init\
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a31__blk_mem_gen_prim_wrapper_init\
+INFO: [VRFC 10-307] analyzing entity dadda_multi
+INFO: [VRFC 10-307] analyzing entity dadda_multi_0
+INFO: [VRFC 10-307] analyzing entity dadda_multi_2
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a21__blk_mem_gen_prim_width\
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a22__blk_mem_gen_prim_width\
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a31__blk_mem_gen_prim_width\
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a21__blk_mem_gen_generic_cstr\
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a22__blk_mem_gen_generic_cstr\
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a31__blk_mem_gen_generic_cstr\
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a21__blk_mem_gen_top\
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a22__blk_mem_gen_top\
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a31__blk_mem_gen_top\
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a21__blk_mem_gen_v8_4_1_synth\
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a22__blk_mem_gen_v8_4_1_synth\
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a31__blk_mem_gen_v8_4_1_synth\
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a21__blk_mem_gen_v8_4_1\
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a22__blk_mem_gen_v8_4_1\
+INFO: [VRFC 10-307] analyzing entity \ROM_weights_a31__blk_mem_gen_v8_4_1\
+INFO: [VRFC 10-307] analyzing entity ROM_weights_a21
+INFO: [VRFC 10-307] analyzing entity ROM_weights_a22
+INFO: [VRFC 10-307] analyzing entity ROM_weights_a31
+INFO: [VRFC 10-307] analyzing entity Artificial_Neuron_a21
+INFO: [VRFC 10-307] analyzing entity Artificial_Neuron_a22
+INFO: [VRFC 10-307] analyzing entity Artificial_Neuron_a31
+INFO: [VRFC 10-307] analyzing entity Neural_Network
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/sources_1/new/artificial_neuron_utils.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.srcs/sim_1/new/Neural_Network_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Neural_Network_tb

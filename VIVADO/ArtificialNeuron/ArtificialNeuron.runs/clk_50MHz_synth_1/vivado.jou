@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jan 16 18:21:22 2019
+# Process ID: 8860
+# Current directory: C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.runs/clk_50MHz_synth_1
+# Command line: vivado.exe -log clk_50MHz.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_50MHz.tcl
+# Log file: C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.runs/clk_50MHz_synth_1/clk_50MHz.vds
+# Journal file: C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.runs/clk_50MHz_synth_1\vivado.jou
+#-----------------------------------------------------------
+source clk_50MHz.tcl -notrace

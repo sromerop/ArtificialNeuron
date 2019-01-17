@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jan 15 15:27:32 2019
+# Process ID: 11244
+# Current directory: C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.sim/sim_1/behav/xsim/xsim.dir/function_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/srome/Desktop/ETSIT/TFG/Pablo Ituero/FPGA y Vivado/ArtificialNeuron/ArtificialNeuron.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/srome/Desktop/ETSIT/TFG/Pablo -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "C:/Users/srome/Desktop/ETSIT/TFG/Pablo" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Tue Jan 15 15:27:32 2019...

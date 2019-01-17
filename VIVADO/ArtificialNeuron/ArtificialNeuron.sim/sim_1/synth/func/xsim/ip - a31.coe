@@ -1,0 +1,2 @@
+memory_initialization_radix=2;
+memory_initialization_vector=11010101 01010101 01010101;

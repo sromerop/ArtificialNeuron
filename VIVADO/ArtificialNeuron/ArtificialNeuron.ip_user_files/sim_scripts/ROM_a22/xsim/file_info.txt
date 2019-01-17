@@ -1,0 +1,2 @@
+ROM_a22_sim_netlist.vhdl,vhdl,xil_defaultlib,../../../../ArtificialNeuron.srcs/sources_1/ip/ROM_a22/ROM_a22_sim_netlist.vhdl,
+glbl.v,Verilog,xil_defaultlib,glbl.v

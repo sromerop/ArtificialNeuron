@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"Neural_Network_tb_func_impl.vhd" \
+"../../../../../ArtificialNeuron.srcs/sources_1/new/artificial_neuron_utils.vhd" \
+"../../../../../ArtificialNeuron.srcs/sim_1/new/Neural_Network_tb.vhd" \
+
+# Do not sort compile order
+nosort

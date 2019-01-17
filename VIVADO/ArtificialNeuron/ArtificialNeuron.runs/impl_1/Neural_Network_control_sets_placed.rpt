@@ -1,0 +1,79 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Jan 17 18:24:00 2019
+| Host         : ASUSANTI running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Neural_Network_control_sets_placed.rpt
+| Design       : Neural_Network
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    11 |
+| Unused register locations in slices containing registers |    37 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      4 |            6 |
+|     12 |            1 |
+|     13 |            1 |
+|     14 |            1 |
+|    16+ |            2 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              50 |           17 |
+| No           | No                    | Yes                    |             160 |           60 |
+| No           | Yes                   | No                     |              25 |            8 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              24 |            6 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------+-------------------------------+------------------------+------------------+----------------+
+|      Clock Signal      |         Enable Signal         |    Set/Reset Signal    | Slice Load Count | Bel Load Count |
++------------------------+-------------------------------+------------------------+------------------+----------------+
+|  clk_50/inst/clk_out1  | a31/address_reg[3]_i_1__1_n_0 | reset_IBUF             |                1 |              4 |
+|  clk_50/inst/clk_out1  | a31/count_reg[3]_i_1__1_n_0   | reset_IBUF             |                1 |              4 |
+|  clk_50/inst/clk_out1  | a21/count_reg[3]_i_1_n_0      | reset_IBUF             |                1 |              4 |
+|  clk_50/inst/clk_out1  | a21/address_reg[3]_i_1_n_0    | reset_IBUF             |                1 |              4 |
+|  clk_50/inst/clk_out1  | a22/address_reg[3]_i_1__0_n_0 | reset_IBUF             |                1 |              4 |
+|  clk_50/inst/clk_out1  | a22/count_reg[3]_i_1__0_n_0   | reset_IBUF             |                1 |              4 |
+|  temporal_reg_n_0_BUFG |                               | count_temporal_reg[31] |                4 |             12 |
+|  clk_50/inst/clk_out1  |                               | temporal               |                4 |             13 |
+|  clk_50/inst/clk_out1  |                               |                        |                9 |             14 |
+|  temporal_reg_n_0_BUFG |                               |                        |                8 |             36 |
+|  clk_50/inst/clk_out1  |                               | reset_IBUF             |               60 |            160 |
++------------------------+-------------------------------+------------------------+------------------+----------------+
+
+

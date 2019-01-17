@@ -1,0 +1,2 @@
+ROM_weights_sim_netlist.vhdl,vhdl,xil_defaultlib,../../../../ArtificialNeuron.srcs/sources_1/ip/ROM_weights/ROM_weights_sim_netlist.vhdl,
+glbl.v,Verilog,xil_defaultlib,glbl.v
